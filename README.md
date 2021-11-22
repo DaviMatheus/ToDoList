@@ -39,5 +39,9 @@
 
    - Inicie o app: 
    $ yarn start ou expo start
+   
+   -Documentação da expo:
+   https://docs.expo.dev/
    ```
+   
 
