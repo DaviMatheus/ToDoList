@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Alert, Keyboard, KeyboardAvoidingView, Platform, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import Task from './components/Tasks';
-import { Switch } from 'react-native';
+
 export default function App() {
   const [task, setTask] = useState();
   const [taskItems, setTaskItems] = useState([]);
@@ -54,7 +54,9 @@ export default function App() {
         </TouchableOpacity>
       </KeyboardAvoidingView>
     </View>
+  
   );
+  
 }
 import colors from './assets/colors/colors'
 
@@ -68,6 +70,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   sectionTitle: {
+    color: '#000000',
     fontSize: 24,
     fontWeight: 'bold',
   },
